@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/restaurant_info"
+    android:layout_marginTop="0.5dp"
+    android:id="@+id/relative_layout_basket_multi_item_cell">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="This is a item in basket"
+        android:id="@+id/text_view_basket_multi_item_name"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="17sp"
+        app:autoSizeStepGranularity="2sp"
+        />
+
+    <EditText
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/text_view_basket_multi_item_name"
+        android:layout_marginStart="10dp"
+        android:id="@+id/edit_text_multi_item_quantity"
+        android:layout_centerInParent="true"
+        android:inputType="number"
+        android:gravity="center"
+        android:digits="0123456789"
+        android:imeOptions="actionDone"
+        android:background="@drawable/quantity_background"
+        android:cursorVisible="false"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="£19.40"
+        android:id="@+id/text_view_basket_multi_item_price"
+        android:textColor="@color/black"
+        android:gravity="end"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

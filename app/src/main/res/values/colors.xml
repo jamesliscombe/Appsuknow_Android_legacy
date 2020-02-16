@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d1d1d1</color>
+    <color name="colorPrimaryDark">#8c8c8c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="restaurant_info">#e7c2c2c2</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="categoryCell">#F2F8F8F8</color>
+    <color name="blue">#FF0323F1</color>
+    <color name="blueDisabled">#330323F1</color>
+    <color name="whiteDisabled">#33FFFFFF</color>
+    <color name="orange">#f0ff9500</color>
+    <color name="red">#ff0000</color>
+    <color name="quantitybg">#dbe0e7</color>
+    <color name="postCode">#c8c1c1c6</color>
+    <color name="basketBlue">#004ca3</color>
+    <color name="green">#2f8f4a</color>
+    <color name="notificationPink">#f87bff</color>
+</resources>

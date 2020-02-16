@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".CollectionDetailsActivity">
+
+    <include layout="@layout/toolbar_custom_basket" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_below="@+id/toolbar_custom_basket"
+            android:id="@+id/radio_group_card_cash_collection">
+
+            <RadioButton android:id="@+id/radio_button_card_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="60pt"
+                android:text="Card"
+                android:onClick="radioButtonCardClicked"/>
+
+            <RadioButton android:id="@+id/radio_button_cash_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:onClick="radioButtonCashClicked"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edit_text_collection_customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/radio_group_card_cash_collection"
+            android:hint="Enter Name"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:background="@color/categoryCell"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="17sp"
+            app:autoSizeStepGranularity="2sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_collection_customer_phone"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/edit_text_collection_customer_name"
+            android:hint="Enter Phone Number"
+            android:background="@color/categoryCell"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="0.5dp"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="17sp"
+            app:autoSizeStepGranularity="2sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_collection_customer_email"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/edit_text_collection_customer_phone"
+            android:hint="Enter Email Address"
+            android:background="@color/categoryCell"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="0.5dp"
+            android:textColor="@color/black"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="17sp"
+            app:autoSizeStepGranularity="2sp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/button_continue_to_stripe_collection"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Place Order"
+            android:layout_below="@id/edit_text_collection_customer_email"
+            android:onClick="continueToStripe"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:background="@color/blue"
+            android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

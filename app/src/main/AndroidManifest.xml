@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.appsuknow.sfcsouthshields">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.CategoriesActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.ItemsActivity"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.CategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.MultiItemActivity"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.ItemsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.BasketActivity"
+            android:noHistory="true"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.CategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.DealsActivity"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.CategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.ChoicesParentActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.ChoicesChildActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.EmptyBasketActivity"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.CategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.NoteTimeActivity"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.BasketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.DeliveryDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.StripeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.CollectionDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.DietaryRequirementsActivity"
+            android:parentActivityName="com.appsuknow.sfcsouthshields.BasketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.appsuknow.sfcsouthshields.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.appsuknow.sfcsouthshields.TermsConditionsActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher_foreground" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" />
+
+        <activity android:name="com.appsuknow.sfcsouthshields.FindUsActivity"></activity>
+    </application>
+
+</manifest>

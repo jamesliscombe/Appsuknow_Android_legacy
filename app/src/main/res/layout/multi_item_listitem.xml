@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/categoryCell"
+    android:layout_marginTop="0.5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layout_multi_item_cell">
+
+    <TextView
+        android:id="@+id/text_view_multi_item_name"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="This is a item"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="17sp"
+        app:autoSizeStepGranularity="2sp" />
+
+    <Button
+        android:id="@+id/button_add_multi_item_to_basket"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:text="+"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:id="@+id/text_view_multi_item_price"
+        android:gravity="center_vertical"
+        android:text="£99.50"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toLeftOf="@+id/button_add_multi_item_to_basket"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_multi_item_description"
+        android:textSize="17sp"
+        android:layout_below="@+id/text_view_multi_item_name"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+</RelativeLayout>
+

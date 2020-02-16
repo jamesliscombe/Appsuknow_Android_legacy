@@ -1,0 +1,492 @@
+<resources>
+    <string name="app_name">SFC South Shields</string>
+    <string name="basket_activity_set_prices_single_item">%1$d item</string>
+    <string name="basket_activity_set_prices_single_items">%1$d items</string>
+    <string name="basketmultiitemsrecyclerviewadapter_multi_item">%1$s %2$s</string>
+    <string name="categories_activity_delivery_cost">Delivery: £%1$s</string>
+    <string name="categories_activity_minimum_order">Minimum: £%1$s</string>
+    <string name="categoryrecyclerviewadapter_deals">DEALS</string>
+    <string name="generic_basket_button_title">Basket</string>
+    <string name="generic_process_order">PROCESSING ORDER</string>
+    <string name="generic_place_order">Place Order</string>
+    <string name="itemsrecyclerviewadapter_from_price">From £%1$s</string>
+    <string name="multirecyclerviewadapter_filling_name">%1$s %2$s</string>
+    <string name="generic_submit_payment">SUBMIT PAYMENT</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="allergy_title">Allergy or dietary requirement?</string>
+    <string name="delivery">Delivery</string>
+    <string name="collection">Collection</string>
+    <string name="min_order_not_reached">Minimum order for delivery not reached</string>
+    <string name="average_delivery_time">Average Delivery Time: %1$d minutes</string>
+    <string name="average_collection_time">Average Collection Time: %1$d minutes</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="find_us">Find Us</string>
+    <string name="billing_info">Billing Address</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_address">Address</string>
+    <string name="customer_postcode">Postal Code</string>
+    <string name="customer_city">City</string>
+
+    <string name="allergen_advice">If you have an allergy or have any dietary requirements, it is strongly advised you contact the restaurant directly and do not use this application. \n AppsUKnow is not responsible for the data published on the application and can not verify that all allergen information is visible</string>
+
+    <string name="privacy_policy_body">Privacy Policy
+\n \n
+Effective date: January 04, 2019
+\n \n
+        AppsUKnow Ltd ("us", "we", or "our") operates (with the exclusion of the menu content) this mobile application. AppsUKnow Ltd is a software development company registered in England. Company number: 11128487. Registered office address: 13 Walworth Avenue, South Shields, England, NE34 7EP. Web address: https://appsuknow.com.
+\n \n
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+\n \n
+At any time, you have the right to be forgotten by AppsUKnow Ltd, and this page informs you on the process involved to achieve this.
+\n \n
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
+\n \n
+Information Collection and Use
+\n \n
+We collect several different types of information for various purposes to provide and improve our Service to you.
+\n \n
+Types of Data Collected
+\n \n
+Personal Data
+\n \n
+While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
+\n \n
+-	Email address
+-	First name and last name
+-	Phone number
+-	Address, State, Province, ZIP/Postal code, City
+-	Cookies and Usage Data
+\n \n
+Usage Data
+\n \n
+When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").
+\n \n
+Use of Data
+\n \n
+AppsUKnow Ltd uses the collected data for various purposes:
+\n \n
+-	To provide and maintain the Service
+-	To notify you about changes to our Service
+-	To allow you to participate in interactive features of our Service when you choose to do so
+-	To provide customer care and support
+-	To provide analysis or valuable information so that we can improve the Service
+-	To monitor the usage of the Service
+-	To detect, prevent and address technical issues
+\n \n
+Transfer of Data
+\n \n
+Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
+\n \n
+If you are located outside United Kingdom and choose to provide information to us, please note that we transfer the data, including Personal Data, to United Kingdom and process it there.
+\n \n
+Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+\n \n
+AppsUKnow Ltd will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+\n \n
+Disclosure of Data
+\n \n
+Legal Requirements
+\n \n
+AppsUKnow Ltd may disclose your Personal Data in the good faith belief that such action is necessary to:
+\n \n
+-	To comply with a legal obligation
+-	To protect and defend the rights or property of AppsUKnow Ltd
+-	To prevent or investigate possible wrongdoing in connection with the Service
+-	To protect the personal safety of users of the Service or the public
+-	To protect against legal liability
+\n \n
+Service Providers
+\n \n
+We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analysing how our Service is used.
+\n \n
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+\n \n
+Links to Other Sites
+\n \n
+Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.
+\n \n
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+\n \n
+Children’s Privacy
+\n \n
+Our Service does not address anyone under the age of 18 ("Children").
+\n \n
+We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.
+\n \n
+Changes to This Privacy Policy
+\n \n
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+\n \n
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+\n \n
+Right to Be Forgotten
+\n \n
+As a Data Subject (“you”), you hold the right to be forgotten from our databases. We will ensure that within 1 month of your request reaching us, any data that can identify you will be removed.
+\n \n
+Upon the request to be forgotten, final steps will be taken if a purchase through our system has taken place that involved electronic payment (card payment). This is to prevent fraudulent payments.
+\n \n
+We may, contact the bank/payment provider associated with the payment details to ensure it has been authorised before removing personal records such as name and address.
+\n \n
+Upon your request to be forgotten, we will replace any personal details with a GDPR (General Data Protection Regulation) record.
+\n \n
+If you wish to be forgotten by AppsUKnow Ltd, please follow the ‘Contact Us’ section below, and provide us with as much information regarding your order history as possible.
+\n \n
+Contact Us
+\n \n
+If you have any questions about this Privacy Policy, please contact us:
+\n \n
+By email: support@appsuknow.com
+</string>
+
+
+    <string name="terms_conditions_body">TERMS &amp; CONDITIONS
+\n \n
+Last Updated 07 January  2019
+\n \n
+1.   Agreement to Terms
+ \n \n
+1.1  These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (you), and AppsUKnow Ltd, located at 13 Walworth Avenue, South Shields, Tyne &amp; Wear, England NE34 7EP, United Kingdom (we, us), concerning your access to and use of this AppsUKnow Takeaway Mobile Application  as well as any related applications (or websites).
+\n \n
+The Application provides the following services: Mobile application that provides food takeaway businesses with their own mobile marketplace to reach end users. (Services). You agree that by accessing the Application and/or Services, you have read, understood, and agree to be bound by all of these Terms and Conditions.
+        \n \n
+If you do not agree with all of these Terms and Conditions, then you are prohibited from using the Application and Services and you must discontinue use immediately. We recommend that you print a copy of these Terms and Conditions for future reference. To receive a PDF version of these terms and conditions, please contact us at support@appsuknow.com.
+        \n \n
+1.2  The supplemental policies set out in Section 1.7 below, as well as any supplemental terms and condition or documents that may be posted on the Application from time to time, are expressly incorporated by reference.
+        \n \n
+1.3  We may make changes to these Terms and Conditions at any time. The updated version of these Terms and Conditions will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. You are responsible for reviewing these Terms and Conditions to stay informed of updates. Your continued use of the Application represents that you have accepted such changes.
+        \n \n
+1.4  We may update or change the Application from time to time to reflect changes to our products, our users\' needs and/or our business priorities.
+        \n \n
+1.5  Our Application is directed to people residing in United Kingdom. The information provided on the Application is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country.
+
+\n \n
+1.6  The Application is intended for users who are at least 18 years old.  If you are under the age of 18, you are not permitted to register for the Application or use the Services without parental permission.
+\n \n
+
+1.7  Additional policies which also apply to your use of the Application include:
+\n \n
+●  Our Privacy Notice PRIVACY POLICY SECTION OF THIS APPLICATION, which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Application, you consent to such processing and you warrant that all data provided by you is accurate.
+        \n
+● Our Acceptable Use Policy PRIVACY POLICY SECTION OF THIS APPLICATION, which sets out the permitted uses and prohibited uses of the Application. When using the Application, you must comply with this Acceptable Use Policy.
+        \n
+● Our Cookie Policy PRIVACY POLICY SECTION OF THIS APPLICATION, which sets out information about the cookies on the Application.
+\n \n
+
+2.    Acceptable Use
+
+\n \n
+2.1  Our full Acceptable Use Policy can be located in: PRIVACY POLICY SECTION OF THIS APPLICATION, sets out all the permitted uses and prohibited uses of this Application.
+
+\n \n
+2.2  You may not access or use the Application for any purpose other than that for which we make the Application and our services available. The Application may not be used in connection with any commercial endeavours except those that are specifically endorsed or approved by us.
+
+\n \n
+2.3  As a user of this Application, you agree not to:
+  \n \n
+● Systematically retrieve data or other content from the Application to a compile database or directory without written permission from us
+        \n
+● Make any unauthorized use of the Application, including collecting usernames and/or email addresses of users to send unsolicited email or creating user accounts under false pretences
+        \n
+● Use a buying agent or purchasing agent to make purchases on the Application
+        \n
+● Use the Application to advertise or sell goods and services
+        \n
+● Circumvent, disable, or otherwise interfere with security-related features of the Application, including features that prevent or restrict the use or copying of any content or enforce limitations on the use
+        \n
+● Engage in unauthorized framing of or linking to the Application
+        \n
+● Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords
+        \n
+● Make improper use of our support services, or submit false reports of abuse or misconduct
+        \n
+● Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools
+        \n
+● Interfere with, disrupt, or create an undue burden on the Application or the networks and services connected to the Application
+        \n
+● Attempt to impersonate another user or person, or use the username of another user
+        \n
+● Sell or otherwise transfer your profile
+        \n
+● Use any information obtained from the Application in order to harass, abuse, or harm another person
+        \n
+● Use the Application or our content as part of any effort to compete with us or to create a revenue-generating endeavour or commercial enterprise
+        \n
+● Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Application
+        \n
+● Harass, annoy, intimidate, or threaten any of our employees, agents, or other users
+        \n
+● Attempt to access any portions of the Application that you are restricted from accessing
+        \n
+● Delete the copyright or other proprietary rights notice from any of the content
+        \n
+● Copy or adapt the Application’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code
+        \n
+● Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material that interferes with any party’s uninterrupted use and enjoyment of the Application, or any material that acts as a passive or active information collection or transmission mechanism
+        \n
+● Use, launch, or engage in any automated use of the system, such as using scripts to send comments or messages, robots, scrapers, offline readers, or similar data gathering and extraction tools
+        \n
+● Advertise products or services not intended by us
+        \n
+● Misrepresent experience, skills, or information about a User
+        \n
+● Threaten users with negative feedback or offering services solely to give positive feedback to users
+        \n
+● Use the Application in a manner inconsistent with any applicable laws or regulations
+        \n
+● Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Application
+        \n
+● *Use this mobile application for any of the above
+        \n
+● Falsely implying a relationship with us or another company with whom you do not have a relationship
+\n \n
+
+3.   Our content
+\n \n
+3.1  Unless otherwise indicated, the Application and Services including source code, databases, functionality, software, Application designs, audio, video, text, photographs, and graphics on the Application (Our Content) are owned or licensed to us, and are protected by copyright and trade mark laws.
+\n \n
+
+3.2  Except as expressly provided in these Terms and Conditions, no part of the Application, Services or Our Content may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
+\n \n
+
+3.3  Provided that you are eligible to use the Application, you are granted a limited licence to access and use the Application and Our Content and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use.
+
+\n \n
+3.4  You shall not (a) try to gain unauthorised access to the Application or any networks, servers or computer systems connected to the Application; and/or (b) make for any purpose including error correction, any modifications, adaptions, additions or enhancements to the Application or Our Content, including the modification of the paper or digital copies you may have downloaded.
+
+\n \n
+3.5  We shall (a) prepare the Application and Our Content with reasonable skill and care; and (b) use industry standard virus detection software to try to block the uploading of content to the Application that contains viruses.
+
+\n \n
+3.6  The content on the Application is provided for general information only. It is not intended to amount to advice on which you should rely. You must obtain professional or specialist advice before taking, or refraining from, any action on the basis of the content on the Application.
+\n \n
+
+3.7  Although we make reasonable efforts to update the information on our Application, we make no representations, warranties or guarantees, whether express or implied, that Our Content on is accurate, complete or up to date.
+\n \n
+4.   Link to third party content
+\n \n
+
+4.1  The Application may contain links to sites or applications operated by third parties. We do not have any influence or control over any such third party websites or applications or the third party operator. We are not responsible for and do not endorse any third party websites or applications or their availability or content.
+
+\n \n
+4.2  We accept no responsibility for adverts contained within the Application. If you agree to purchase goods and/or services from any third party who advertises in the Application, you do so at your own risk. The advertiser, and not us, is responsible for such goods and/or services and if you have any questions or complaints in relation to them, you should contact the advertiser.
+
+\n \n
+5.    Application Management
+\n \n
+5.1  We reserve the right at our sole discretion, to (1) monitor the Application for breaches of these Terms and Conditions; (2) take appropriate legal action against anyone in breach of applicable laws or these Terms and Conditions; (3) remove from the Application or otherwise disable all files and content that are excessive in size or are in any way a burden to our systems; and (4) otherwise manage the Application in a manner designed to protect our rights and property and to facilitate the proper functioning of the Application and Services.
+\n \n
+
+5.2  We do not guarantee that the Application will be secure or free from bugs or viruses.
+\n \n
+
+5.3  You are responsible for configuring your information technology, computer programs and platform to access the Application and you should use your own virus protection software.
+
+\n \n
+6.    Modifications to and availability of the Application
+\n \n
+6.1  We reserve the right to change, modify, or remove the contents of the Application at any time or for any reason at our sole discretion without notice. We also reserve the right to modify or discontinue all or part of the Services without notice at any time.
+\n \n
+
+6.2  We cannot guarantee the Application and Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Application, resulting in interruptions, delays, or errors. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Application or Services during any downtime or discontinuance of the Application or Services. We are not obliged to maintain and support the Application or Services or to supply any corrections, updates, or releases.
+
+\n \n
+6.3  There may be information on the Application that contains typographical errors, inaccuracies, or omissions that may relate to the Services, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information at any time, without prior notice.
+
+\n \n
+7.    Disclaimer/Limitation of Liability
+\n \n
+7.1  The Application and Services are provided on an as-is and as-available basis. You agree that your use of the Application and/or Services will be at your sole risk except as expressly set out in these Terms and Conditions, all warranties, terms, conditions and undertakings, express or implied (including by statute, custom or usage, a course of dealing, or common law) in connection with the Application and Services and your use thereof including, without limitation, the implied warranties of satisfactory quality, fitness for a particular purpose and non-infringement are excluded to the fullest extent permitted by applicable law.
+
+\n \n
+We make no warranties or representations about the accuracy or completeness of the Application’s content are not liable for any (1) errors or omissions in content: (2) any unauthorized access to or use of our servers and/or any and all personal information and/or financial information stored on our server; (3) any interruption or cessation of transmission to or from the Application or services; and/or (4) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the Application by any third party. We will not be responsible for any delay or failure to comply with our obligations under these Terms and Conditions if such delay or failure is caused by an event beyond our reasonable control.
+
+\n \n
+7.2  Our responsibility for loss or damage suffered by you:
+\n \n
+
+Whether you are a consumer or a business user:
+\n \n
+
+● We do not exclude or limit in any way our liability to you where it would be unlawful to do so. This includes liability for death or personal injury caused by our negligence or the negligence of our employees, agents or subcontractors and for fraud or fraudulent misrepresentation.
+\n
+
+● If we fail to comply with these Terms and Conditions, we will be responsible for loss or damage you suffer that is a foreseeable result of our breach of these Terms and Conditions, but we would not be responsible for any loss or damage that were not foreseeable at the time you started using the Application/Services.
+
+\n \n
+Notwithstanding anything to the contrary contained in the Disclaimer/Limitation of Liability section, our liability to you for any cause whatsoever and regardless of the form of the action, will at all times be limited to a total aggregate amount equal to the greater of (a) the sum of £5000 or (b) the amount paid, if any, by you to us for the Services/Application during the six (6) month period prior to any cause of action arising.
+\n \n
+
+If you are a business user:
+\n \n
+
+We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:
+\n \n
+
+● use of, or inability to use, our Application/Services; or
+        \n
+● use of or reliance on any content displayed on our Application.
+\n \n
+
+In particular, we will not be liable for:
+\n \n
+
+● loss of profits, sales, business, or revenue;
+        \n
+● business interruption;
+        \n
+● loss of anticipated savings;
+        \n
+● loss of business opportunity, goodwill or reputation; or
+        \n
+● any indirect or consequential loss or damage.
+\n \n
+
+If you are a consumer user:
+
+\n \n
+● Please note that we only provide our Application for domestic and private use. You agree not to use our Application for any commercial or business purposes, and we have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.
+\n
+
+● If defective digital content that we have supplied, damages a device or digital content belonging to you and this is caused by our failure to use reasonable care and skill, we will either repair the damage or pay you compensation.
+\n
+
+● you have legal rights in relation to goods that are faulty or not as described. Advice about your legal rights is available from your local Citizens\' Advice Bureau or Trading Standards office. Nothing in these Terms and Conditions will affect these legal rights.
+\n
+
+8.    Term and Termination
+\n \n
+8.1  These Terms and Conditions shall remain in full force and effect while you use the Application or Services or are otherwise a user of the Application, as applicable. You may terminate your use or participation at any time, for any reason, by following the instructions for terminating user accounts in your account settings, if available, or by contacting us at support@appsuknow.com.
+
+\n \n
+8.2  Without limiting any other provision of these Terms and Conditions, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Application and the Services (including blocking certain IP addresses), to any person for any reason including without limitation for breach of any representation, warranty or covenant contained in these Terms and Conditions or of any applicable law or regulation.
+\n \n
+
+If we determine, in our sole discretion, that your use of the Application/Services is in breach of these Terms and Conditions or of any applicable law or regulation, we may terminate your use or participation in the Application and the Services or delete any content or information that you posted at any time, without warning, in our sole discretion.
+\n \n
+
+8.3  If we terminate or suspend your account for any reason set out in this Section 9, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
+\n \n
+9.     Mobile Application
+\n \n
+9.1  If you access the Services via a mobile application, then we grant you a revocable, non-exclusive, non-transferable, limited right to install and use the mobile application on wireless electronic devices owned or controlled by you, and to access and use the mobile application on such devices strictly in accordance with the terms and conditions of this license.
+  \n \n
+
+9.2  For consumers only  - If you are a customer in the European Union, you have certain rights to decompile the Software if:
+
+\n \n
+● this is necessary to obtain the information that you need to make the software interoperable with other software and
+        \n
+● we have not made that information available to you.
+\n \n
+Before reverse engineering or decompiling the software, you must first write to us and ask us to provide you with the interoperability information that you need. Please provide us with full details of your requirements so that we can assess what information you need. We may impose reasonable conditions on providing you with interoperability information. You must use that information only for the purpose of making the software interoperable with other software. You must not use that information for any other purpose.
+  \n \n
+
+9.3  For business users only - You will not:
+  \n \n
+
+
+(a) reverse engineer, decompile or otherwise try to discover the source code of the software/application unless you have first written to us requesting interoperability information and we have failed to provide you with that information or if we have failed to offer to provide you with interoperability information on reasonable conditions";
+  \n \n
+
+(b) make any modification, adaptation, improvement, enhancement, translation or derivative work from the application;
+  \n \n
+
+(c) breach any applicable laws, rules or regulations in connection with your access or use of the application;
+  \n \n
+
+(d) remove, alter or obscure any proprietary notice (including any notice of copyright or trade mark) posted by us or the licensors of the application;
+  \n \n
+
+(e) use the application for any revenue generating endeavour, commercial enterprise, or other purpose for which it is not designed or intended;
+  \n \n
+
+(f) make the application available over a network or other environment permitting access or use by multiple devices or users at the same time;
+  \n \n
+
+(g) use the application for creating a product, service or software that is, directly or indirectly, competitive with or in any way a substitute for the application;
+  \n \n
+
+(h) use the application to send automated queries to any website or to send any unsolicited commercial e-mail; or
+  \n \n
+
+(i) use any proprietary information or any of our interfaces or our other intellectual property in the design, development, manufacture, licensing or distribution of any applications, accessories or devices for use with the application.
+
+\n \n
+
+9.4  The following terms apply when you use a mobile application obtained from either the Apple Store or Google Play (each an App Distributor) to access the Services:
+
+\n \n
+(a) the licence granted to you for our mobile application is limited to a non-transferable licence to use the application on a device that utilizes the Apple iOS or Android operating system, as applicable, and in accordance with the usage rules set forth in the applicable App Distributor terms of service;
+  \n \n
+
+
+(b) we are responsible for providing any maintenance and support services with respect to the mobile application as specified in these Terms and Conditions or as otherwise required under applicable law. You acknowledge that each App Distributor has no obligation whatsoever to furnish any maintenance and support services with respect to the mobile application;
+  \n \n
+
+(c) In the event of any failure of the mobile application to conform to any applicable warranty, you may notify an App Distributor, and the App Distributor, in accordance with its terms and policies, may refund the purchase price, if any, paid for the mobile application, and to the maximum extent permitted by applicable law, an App Distributor will have no other warranty obligation whatsoever with respect to the mobile application;
+  \n \n
+
+(d) you represent and warrant that (i) you are not located in a country that is subject to a U.S. government embargo, or that has been designated by the U.S. government as a “terrorist supporting” country; and (ii) you are not listed on any U.S. government list of prohibited or restricted parties;
+  \n \n
+
+(e) you must comply with applicable third party terms of agreement when using the mobile application, e.g., if you have a VoIP application, then you must not be in breach of their wireless data service agreement when using the mobile application; and
+  \n \n
+
+(f) you acknowledge and agree that the App Distributors are third party beneficiaries of these Terms and Conditions, and that each App Distributor will have the right (and will be deemed to have accepted the right) to enforce these Terms and Conditions against you as a third party beneficiary thereof.
+  \n \n
+10.    General
+\n \n
+10.1  Visiting the Application, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Application, satisfy any legal requirement that such communication be in writing.
+
+\n \n
+You hereby agree to the use of electronic signatures, contracts, orders and other records and to electronic delivery of notices, policies and records of transactions initiated or completed by us or via the Application. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by other than electronic means.
+\n \n
+
+10.2  These Terms and Conditions and any policies or operating rules posted by us on the Application or in respect to the Services constitute the entire agreement and understanding between you and us.
+\n \n
+
+10.3  Our failure to exercise or enforce any right or provision of these Terms and Conditions shall not operate as a waiver of such right or provision.
+\n \n
+
+10.4  We may assign any or all of our rights and obligations to others at any time.
+
+\n \n
+10.5  We shall not be responsible or liable for any loss, damage, delay or failure to act caused by any cause beyond our reasonable control.
+
+\n \n
+10.6  If any provision or part of a provision of these Terms and Conditions is unlawful, void or unenforceable, that provision or part of the provision is deemed severable from these Terms and Conditions and does not affect the validity and enforceability of any remaining provisions.
+\n \n
+
+10.7  There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms and Conditions or use of the Application or Services.
+\n \n
+
+10.8  For consumers only  - Please note that these Terms and Conditions, their subject matter and their formation, are governed by English law. You and we both agree that the courts of England and Wales will have exclusive jurisdiction expect that if you are a resident of Northern Ireland you may also bring proceedings in Northern Ireland, and if you are resident of Scotland, you may also bring proceedings in Scotland. If you have any complaint or wish to raise a dispute under these Terms and Conditions or otherwise in relation to the Application please follow this link http://ec.europa.eu/odr
+
+\n \n
+10.9  For business users only - If you are a business user, these Terms and Conditions, their subject matter and their formation (and any non-contractual disputes or claims) are governed by English Law. We both agree to the exclusive jurisdiction of the courts of England and Wales.
+
+\n \n
+10.10  Except as stated under the Mobile Application section, a person who is not a party to these Terms and Conditions shall have no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of these Terms and Conditions.
+\n \n
+
+10.11  In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us by email at support@appsuknow.com or by post to:
+\n \n
+
+AppsUKnow Ltd
+13 Walworth Avenue
+South Shields, Tyne &amp; Wear,  England NE34 7EP
+United Kingdom
+\n \n
+
+
+
+Application Credits
+\n \n
+Icons made by https://www.freepik.com/Freepik from www.flaticon.com. www.flaticon.com is licensed by http://creativecommons.org/licenses/by/3.0/.
+\n \n
+Icons made by https://www.flaticon.com/authors/gregor-cresnar from www.flaticon.com. www.flaticon.com is licensed by http://creativecommons.org/licenses/by/3.0/.</string>
+
+</resources>

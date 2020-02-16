@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".NoteTimeActivity">
+
+    <include layout="@layout/toolbar_custom_basket"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_select_delivery_collection_time"
+            android:layout_width="match_parent"
+            android:background="@color/categoryCell"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:shadowColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="17sp"
+            app:autoSizeStepGranularity="2sp"
+            android:textColor="@color/black"
+            android:text="Today ASAP"
+            android:layout_below="@+id/toolbar_custom_basket"
+            android:onClick="openListDialog"/>
+
+        <EditText
+            android:id="@+id/edit_text_note"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_below="@+id/text_view_select_delivery_collection_time"
+            android:background="@color/categoryCell"
+            android:hint="Enter a note for the takeaway (optional)"
+            android:textColor="@color/black"
+            android:gravity="top"
+            android:padding="8dp"
+            android:inputType="textMultiLine"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="17sp"
+            app:autoSizeStepGranularity="2sp"/>
+
+        <Button
+            android:id="@+id/button_pay_cash_card"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Pay Cash/Card"
+            android:layout_below="@+id/edit_text_note"
+            android:onClick="payCashCard"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:background="@color/blue"
+            android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

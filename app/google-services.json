@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "563297526086",
+    "firebase_url": "https://sfcsouthshields.firebaseio.com",
+    "project_id": "sfcsouthshields",
+    "storage_bucket": "sfcsouthshields.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563297526086:android:5b0b113c0bdf31cd",
+        "android_client_info": {
+          "package_name": "com.appsuknow.sfcsouthshields"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563297526086-qkspebaa7mkfbb21407osnjkjq40r2l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDeE2QHLyrQ9eG3vgzSnV5LPYnCoQWFbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

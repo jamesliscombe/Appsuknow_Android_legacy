@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindUsActivity">
+
+    <include layout="@layout/toolbar_custom_basket" />
+
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@+id/toolbar_custom_basket"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_view_our_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/text_view_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="192 Ocean Road,\nSouth Shields,\nTyne &amp; Wear"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/text_view_our_address"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/text_view_contact_info_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Information"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/text_view_address"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/text_view_contact_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0191 456 3218,\n\ninfo@sfcsouthshields.co.uk\n\nhttp://www.sfcsouthshields.co.uk"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/text_view_contact_info_header"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/text_view_opening_times_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Opening Hours"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/text_view_contact_details"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/text_view_opening_hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monday: 11:30am - 11:30pm\nTuesday: 11:30am - 11:30pm\nWednesday: 11:30am - 11:30pm\nThursday: 11:30am - 11:30pm\nFriday: 11:30am - 11:30pm\nSaturday: 11:30am - 11:30pm\nSunday: 11:30am - 11:30pm\n"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/text_view_opening_times_header"
+                android:padding="8dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

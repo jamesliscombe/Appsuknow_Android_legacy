@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_custom_basket"/>
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".BasketActivity">
+
+            <TextView
+                android:id="@+id/text_view_average_time"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/green"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/text_view_min_order_message"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/orange"
+                android:text="@string/min_order_not_reached"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:id="@+id/text_view_total_price_basket"
+                android:layout_gravity="center"
+                android:text="£0.0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/text_view_total_items_basket"
+                android:layout_gravity="center"
+                android:text="0 items" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/rounded_corner"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <RadioButton android:id="@+id/radio_button_delivery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="60pt"
+                    android:text="@string/delivery"
+                    android:onClick="radioButtonDeliveryClicked"/>
+
+                <RadioButton android:id="@+id/radio_button_collection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/collection"
+                    android:onClick="radioButtonCollectionClicked"/>
+            </RadioGroup>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/whiteDisabled"
+                android:background="@color/blueDisabled"
+                android:text="Checkout"
+                android:textAllCaps="false"
+                android:enabled="false"
+                android:id="@+id/button_go_to_checkout"
+                android:onClick="goToCheckout"/>
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_dietary_requirement"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="44dp"
+                android:onClick="openDietary"
+                android:background="@color/restaurant_info">
+
+                <ImageView
+                    android:id="@+id/image_view_warning_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/warningicon"
+                    android:layout_marginStart="8dp"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/allergy_title"
+                    android:textColor="@color/red"
+                    android:layout_toEndOf="@+id/image_view_warning_icon"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8dp"/>
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_basket_items"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_basket_multi_items"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_basket_deals"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.5dp"
+                android:background="@color/restaurant_info">
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_subtotal_label_bottom"
+                    android:textColor="@color/black"
+                    android:text="SUBTOTAL"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="17sp"
+                    app:autoSizeStepGranularity="2sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_subtotal_price_bottom"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="£0.0"
+                    android:textColor="@color/black"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="17sp"
+                    app:autoSizeStepGranularity="2sp"/>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_delivery_label_bottom"
+                    android:layout_below="@+id/text_view_subtotal_label_bottom"
+                    android:textColor="@color/black"
+                    android:text="Delivery Charge"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="17sp"
+                    app:autoSizeStepGranularity="2sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_delivery_price_bottom"
+                    android:layout_below="@+id/text_view_subtotal_price_bottom"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="£0.0"
+                    android:textColor="@color/black"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="17sp"
+                    app:autoSizeStepGranularity="2sp"/>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_total_label_bottom"
+                    android:layout_below="@+id/text_view_delivery_label_bottom"
+                    android:textColor="@color/black"
+                    android:text="TOTAL"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="17sp"
+                    app:autoSizeStepGranularity="2sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_total_price_bottom"
+                    android:layout_below="@+id/text_view_delivery_price_bottom"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold"
+                    android:text="£0.0"
+                    android:textColor="@color/black"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="17sp"
+                    app:autoSizeStepGranularity="2sp"/>
+
+            </RelativeLayout>
+
+            <android.support.constraint.ConstraintLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
